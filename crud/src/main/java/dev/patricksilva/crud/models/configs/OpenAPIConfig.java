@@ -34,7 +34,7 @@ public class OpenAPIConfig {
 
         License mitLicense = new License().name("MIT License").url("https://choosealicense.com/licenses/mit/");
 
-        Info info = new Info().title("Endpoints Management").version("3.0")
+        Info info = new Info().title("Endpoints Management").version("3.0")git config --global user.email "your-email@example.com"
                 .description("This API exposes endpoints to manage tutorials.")
                 .termsOfService("https://www.caixa.gov.br/terms").license(mitLicense);
 
